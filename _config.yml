@@ -12,7 +12,7 @@ google_analytics:
 google_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    false
@@ -24,8 +24,8 @@ disqus_shortname:
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments: 
-facebook_appid: 
+facebook_comments:
+facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
