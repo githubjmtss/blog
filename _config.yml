@@ -4,7 +4,7 @@ email:       jeremyphilemon@outlook.com
 author:      Jeremy Philemon
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     "/blog"
-url:         "http://jeremyphilemon.github.io"
+url:         "http://jeremyphilemon.github.io/blog"
 date_format: "%b %-d, %Y"
 
 # Google analytics
@@ -21,7 +21,7 @@ ajaxify_contact_form: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: jeremyphilemon
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
