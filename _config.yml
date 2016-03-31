@@ -2,7 +2,7 @@
 title:       blog
 email:       jeremyphilemon@outlook.com
 author:      Jeremy Philemon
-description: "101010"
+description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     "/blog"
 url:         "http://jeremyphilemon.github.io/blog"
 date_format: "%b %-d, %Y"
@@ -43,10 +43,10 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: true
+show_sharing_icons: false
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
-share_facebook: true
+share_facebook: false
 share_twitter: false
 share_googleplus: false
 share_linkedin: false
@@ -59,9 +59,8 @@ share_hackernews: false
 # Build settings
 markdown:     kramdown
 redcarpet:
-extensions: ['smart', 'tables', 'with_toc_data']
+  extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
 paginate:     4
 sass:
-compressed: true
-gems: [jekyll-paginate]
+  compressed: true
