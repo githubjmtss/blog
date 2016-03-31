@@ -2,37 +2,11 @@
 layout: default
 ---
 
-<!--{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
 {% if minutes == 0 %}
 {% assign minutes = 1 %}
-{% endif %}-->
-<head>
-  <style>
-  @font-face {
-    font-family: 'Sophia'; /*a name to be used later*/
-    src: url('/blog/css/Sophia.woff2'); /*URL to font*/
-  }
-  h1 {
-    font-family: "Sophia";
-    font-size: 6rem;
-    margin-top: 0em;
-  }
-  .meta, .post-meta {
-    font-size: 2.3rem;
-    font-style: normal;
-    font-family: "Sophia";
-    color: #333;
-  }
-  p {
-    font-family: "Sophia";
-    color: #382A7D;
-    line-height: .9;
-    font-size: 2.9rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
-  </style>
-</head>
+{% endif %}
+
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
   <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
