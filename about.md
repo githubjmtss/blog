@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 <center><img src="/blog/images/cueball.png"/></center>
-<center>I am yet to figure out <i>sigh</i></center>
+<center>I am yet to figure it out <i>sigh</i></center>

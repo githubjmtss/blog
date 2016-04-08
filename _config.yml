@@ -2,9 +2,9 @@
 title:       blog
 email:       jeremyphilemon@outlook.com
 author:      Jeremy Philemon
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "A blog filled with good fluff."
 baseurl:     "/blog"
-url:         "http://jeremyphilemon.github.io/blog"
+url:         "http://anotherdudelike.me/blog"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -15,7 +15,7 @@ google_verification:
 animated:             true
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    true
+show_social_icons:    false
 ajaxify_contact_form: false
 
 # Disqus post comments
@@ -42,16 +42,16 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: true
+show_sharing_icons: false
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
-share_facebook: true
-share_twitter: true
+share_facebook: false
+share_twitter: false
 share_googleplus: false
 share_linkedin: false
 share_digg: false
 share_tumblr: false
-share_reddit: true
+share_reddit: false
 share_stumbleupon: false
 share_hackernews: false
 
