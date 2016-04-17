@@ -6,7 +6,6 @@ description: "An aesthetic fluff."
 baseurl:     "/blog"
 url:         "http://anotherdudelike.me/blog"
 date_format: "%b %-d, %Y"
-image: "/blog/images/Cueball.png"
 
 # Google analytics
 # Google services
