@@ -7,6 +7,7 @@ baseurl:     "/blog"
 url:         "http://anotherdudelike.me/blog"
 date_format: "%b %-d, %Y"
 
+# Google analytics
 # Google services
 google_analytics: UA-76516260-1
 google_verification: google-site-verification=clx3PrwNCYqrkI6CXudR6Ff0EeWgAWOxEw07AL2UBFg
